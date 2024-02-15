@@ -1,3 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+title: ODDS - Overhead Structure Detection and Data Science
+description: The goal of this project is to ensure up-to-date data quality control with SDG&E's databases of electric pole assets. Our project seeks to create a more efficient way of ensuring that the databases are up-to-data by utilizing the Google Street View API along with a pole-detection model trained using [DETR](https://github.com/facebookresearch/detr/). Our model will traverse the streets between 2 given longitude and latitude coordinate pairs and count the number of wooden and metal electric poles it identifies. The counted poles are compared to the number on record in SDG&E's database which would be a good indicator of whether an update is necessary.
+
