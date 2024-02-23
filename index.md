@@ -23,57 +23,65 @@ layout: default
 .fade-in-text-4 {
     animation: fadeIn 2s ease-in-out 1.5s;
 }
+
+.fade-in-text-5 {
+    animation: fadeIn 2s ease-in-out 2s;
+}
+
+.fade-in-text-6 {
+    animation: fadeIn 2s ease-in-out 2.5s;
+}
+
+.fade-in-text-7 {
+    animation: fadeIn 2s ease-in-out 3s;
+}
+
+.fade-in-text-8 {
+    animation: fadeIn 2s ease-in-out 3.5s;
+}
 </style>
 
 <h1 class="fade-in-text-1">ODDS - Overhead Structure Detection and Data Science</h1>
-<p class="fade-in-text-1">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
+<p class="fade-in-text-2">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
 
-<div class="fade-in-text-2">
+<h2 div class="fade-in-text-3">Abstract</h2>
+<p class="fade-in-text-3">
 
-## Introduction
+Abstract Here
 
-In this section, we will introduce the problem we are addressing and justify its relevance to you, the reader. We will also provide an overview of the methods we are using to tackle this problem.
+</p>
 
-[Read more](#introduction-details)
+<h2 div class="fade-in-text-4">Introduction</h2>
+<p class="fade-in-text-4">
 
-</div>
+Introduction Here
 
-<div class="fade-in-text-3">
+</p>
 
-## Methods
+<h2 div class="fade-in-text-5">Methods</h2>
+<p class="fade-in-text-5">
 
-Here, we will describe in detail how we approached the problem. Depending on your level of interest or expertise, you can choose to delve into the technical details or stick to a more general overview.
+Methods here
 
-[Read more](#methods-details)
+</p>
 
-</div>
+<h2 div class="fade-in-text-6">Results</h2>
+<p class="fade-in-text-6">
 
-<div class="fade-in-text-4">
+Results Here
 
-## Results and Conclusion
+</p>
 
-This section will discuss the impact of our work and draw conclusions based on the results obtained. Feel free to explore further to understand the significance of our findings.
+<h2 div class="fade-in-text-7">Discussion</h2>
+<p class="fade-in-text-7">
 
-[Read more](#results-conclusion-details)
+Discussion Here
 
-</div>
+</p>
 
-<div class="fade-in-text-4">
+<h2 div class="fade-in-text-8">Conclusion</h2>
+<p class="fade-in-text-8">
 
----
+Conclusion Here
 
-## Details
-
-### Introduction
-
-In this detailed section, we will provide more in-depth information about the problem we are addressing and the methods we are using. This may include technical explanations and background information.
-
-### Methods
-
-Here, you can find a more comprehensive explanation of the methodologies employed in our project. We will delve into the technical aspects and provide step-by-step descriptions of our approach.
-
-### Results and Conclusion
-
-Explore this section for a deeper understanding of the impact of our work and the conclusions drawn from the results obtained. We will discuss implications and potential future directions.
-
-</div>
+</p>
