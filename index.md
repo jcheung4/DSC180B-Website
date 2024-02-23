@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-in-text {
+    animation: fadeIn 2s ease-in-out;
+}
+</style>
+
 <h1 class="fade-in-text">ODDS - Overhead Structure Detection and Data Science</h1>
 by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui
 
