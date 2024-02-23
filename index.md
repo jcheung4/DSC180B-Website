@@ -23,23 +23,23 @@ layout: default
 }
 
 .fade-in-text-4 {
-    animation-delay: 1s;
+    animation-delay: 0.75s;
 }
 
 .fade-in-text-5 {
-    animation-delay: 1.25s;
+    animation-delay: 1s;
 }
 
 .fade-in-text-6 {
-    animation-delay: 1.5s;
+    animation-delay: 1.25s;
 }
 
 .fade-in-text-7 {
-    animation-delay: 1.75s;
+    animation-delay: 1.5s;
 }
 
 .fade-in-text-8 {
-    animation-delay: 2s;
+    animation-delay: 1.75s;
 }
 </style>
 
@@ -66,22 +66,38 @@ Our project utilizes a rich dataset derived from Google Street View, offering co
 Our project aims to automate the identification and analysis of utility poles using Google Street View images coupled with computer vision techniques. This process involved several key steps: data collection through the Google Street View API, image processing and pole detection using DETR (DEtection TRansformer) object detection models, and data validation against a utility pole database. This section describes the methodology we employed across these stages, ensuring that our approach is replicable and transparent.
 
 Data Collection: We initiated our project by collecting images of utility poles from Google Street View. To achieve this we each created our own python scripts and utilized the Google Street View API. We captured images of different utility poles from different angles and field of views, collecting over eight hundred images in the process. This method ensured comprehensive coverage and diversity in the pole images collected.
-
-Image Processing and Pole Detection: Once the images were collected, we proceeded with the image processing and pole detection phase. We employed DETR object detection models, which were fine-tuned to specifically identify utility poles from the Street View images. The DETR model, known for its efficiency in processing images and detecting objects within them, was adapted to recognize the material quality of the utility poles.
-
-Model Training: We fine-tuned the DETR model using a subset of manually annotated images, which included diverse examples of utility poles. This training process involved adjusting the model's parameters to improve its accuracy in detecting poles from various angles.
-
-Data Validation and Quality Control: The final step in our methodology involved validating the detected poles against an existing utility pole database from SDGE. This process was crucial for assessing the completeness and accuracy of the database and identifying any discrepancies.
-
-Database Extraction: To setup our dummy database, that is a replica of SDG\&E's database, we utilized Docker for initial setup. This allows us to create a docker container uses a PostgreSQL image and can allow us to create, read, update, and delete tables when needed. Based on the initial coordinates that are provided, we can query the dummy database using a distance calculation to get the count of poles between the initial coordinates. For our own database, we can add the coordinates of the pole whenever a model detects it and from there, we can compare the count of poles that we calculated versus the count that was found in the dummy database. 
-
-Comparison and Validation: The information from the detected poles was then compared with the database entries to identify missing poles, inaccuracies in material classification, or any other discrepancies. This comparison allowed us to assess the effectiveness of our detection model and the quality of the existing database records.
 </p>
 
 <div class="fade-in-text-5" style="text-align:center;">
-    <img src="images/street_img_collect.png" alt="Descriptive Alt Text" style="width:80%; max-width:600px;">
+    <img src="images/street_img_collect.png" alt="Descriptive Alt Text" style="width:20%; max-width:150px;">
     <p>Figure 1: Collecting images from different angles and field of views for the same pole</p>
 </div>
+
+<p class="fade-in-text-5">
+Image Processing and Pole Detection: Once the images were collected, we proceeded with the image processing and pole detection phase. We employed DETR object detection models, which were fine-tuned to specifically identify utility poles from the Street View images. The DETR model, known for its efficiency in processing images and detecting objects within them, was adapted to recognize the material quality of the utility poles.
+
+Model Training: We fine-tuned the DETR model using a subset of manually annotated images, which included diverse examples of utility poles. This training process involved adjusting the model's parameters to improve its accuracy in detecting poles from various angles.
+</p>
+
+<div class="fade-in-text-5" style="text-align:center;">
+    <img src="images/dect_samp.png" alt="Descriptive Alt Text" style="width:20%; max-width:150px;">
+    <p>Figure 2: Detecting wooden and metal poles from Google street view images</p>
+</div>
+
+<p class="fade-in-text-5">
+Data Validation and Quality Control: The final step in our methodology involved validating the detected poles against an existing utility pole database from SDGE. This process was crucial for assessing the completeness and accuracy of the database and identifying any discrepancies.
+
+Database Extraction: To setup our dummy database, that is a replica of SDG\&E's database, we utilized Docker for initial setup. This allows us to create a docker container uses a PostgreSQL image and can allow us to create, read, update, and delete tables when needed. Based on the initial coordinates that are provided, we can query the dummy database using a distance calculation to get the count of poles between the initial coordinates. For our own database, we can add the coordinates of the pole whenever a model detects it and from there, we can compare the count of poles that we calculated versus the count that was found in the dummy database. 
+</p>
+
+<div class="fade-in-text-5" style="text-align:center;">
+    <img src="images/workflow.png" alt="Descriptive Alt Text" style="width:20%; max-width:150px;">
+    <p>Figure 3: Comparing counts using our own database and update accordingly</p>
+</div>
+
+<p class="fade-in-text-5">
+Comparison and Validation: The information from the detected poles was then compared with the database entries to identify missing poles, inaccuracies in material classification, or any other discrepancies. This comparison allowed us to assess the effectiveness of our detection model and the quality of the existing database records.
+</p>
 
 <h2 class="fade-in-text-6">Results</h2>
 <p class="fade-in-text-6">
