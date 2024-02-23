@@ -1,6 +1,9 @@
-# Home
+---
+layout: default
+---
 
-Welcome to our Website!
+<h1 class="fade-in-text">ODDS - Overhead Structure Detection and Data Science</h1>
+by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui
 
 ## Introduction
 
