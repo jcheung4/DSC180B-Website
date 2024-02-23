@@ -8,36 +8,38 @@ layout: default
     to { opacity: 1; }
 }
 
-.fade-in-text-1 {
-    animation: fadeIn 2s ease-in-out;
+.fade-in-text-1, .fade-in-text-2, .fade-in-text-3, .fade-in-text-4, 
+.fade-in-text-5, .fade-in-text-6, .fade-in-text-7, .fade-in-text-8 {
+    opacity: 0; /* Start elements as invisible */
+    animation: fadeIn 2s ease-in-out forwards; /* Use forwards to retain the final state */
 }
 
 .fade-in-text-2 {
-    animation: fadeIn 2s ease-in-out 0.5s;
+    animation-delay: 0.5s;
 }
 
 .fade-in-text-3 {
-    animation: fadeIn 2s ease-in-out 1s;
+    animation-delay: 1s;
 }
 
 .fade-in-text-4 {
-    animation: fadeIn 2s ease-in-out 1.5s;
+    animation-delay: 1.25s;
 }
 
 .fade-in-text-5 {
-    animation: fadeIn 2s ease-in-out 2s;
+    animation-delay: 1.5s;
 }
 
 .fade-in-text-6 {
-    animation: fadeIn 2s ease-in-out 2.5s;
+    animation-delay: 1.75s;
 }
 
 .fade-in-text-7 {
-    animation: fadeIn 2s ease-in-out 3s;
+    animation-delay: 2s;
 }
 
 .fade-in-text-8 {
-    animation: fadeIn 2s ease-in-out 3.5s;
+    animation-delay: 2.25s;
 }
 </style>
 
