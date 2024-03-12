@@ -11,35 +11,39 @@ layout: default
 .fade-in-text-1, .fade-in-text-2, .fade-in-text-3, .fade-in-text-4, 
 .fade-in-text-5, .fade-in-text-6, .fade-in-text-7, .fade-in-text-8 {
     opacity: 0;
-    animation: fadeIn 0.5s ease-in-out forwards;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
-.fade-in-text-2 {
+.fade-in-text-1 {
     animation-delay: 0.25s;
 }
 
-.fade-in-text-3 {
+.fade-in-text-2 {
     animation-delay: 0.5s;
 }
 
-.fade-in-text-4 {
+.fade-in-text-3 {
     animation-delay: 0.75s;
 }
 
-.fade-in-text-5 {
+.fade-in-text-4 {
     animation-delay: 1s;
 }
 
-.fade-in-text-6 {
+.fade-in-text-5 {
     animation-delay: 1.25s;
 }
 
-.fade-in-text-7 {
+.fade-in-text-6 {
     animation-delay: 1.5s;
 }
 
-.fade-in-text-8 {
+.fade-in-text-7 {
     animation-delay: 1.75s;
+}
+
+.fade-in-text-8 {
+    animation-delay: 2s;
 }
 </style>
 
