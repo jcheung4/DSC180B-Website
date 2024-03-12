@@ -11,7 +11,7 @@ layout: default
 .fade-in-text-1, .fade-in-text-2, .fade-in-text-3, .fade-in-text-4, 
 .fade-in-text-5, .fade-in-text-6, .fade-in-text-7, .fade-in-text-8 {
     opacity: 0;
-    animation: fadeIn 1.25s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .fade-in-text-2 {
@@ -42,15 +42,6 @@ layout: default
     animation-delay: 1.75s;
 }
 </style>
-
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <div style="margin-left: 10px;">
-        <img src="images/hdsi-blue-gold.png" alt="Class Logo" style="width:60%; max-width:450px;">
-    </div>
-    <div style="margin-right: 10px;">
-        <img src="images/sdge-logo.png" alt="SDGE Logo" style="width: auto; height: 200px;">
-    </div>
-</div>
 
 <h1 class="fade-in-text-1">Enhancing Utility Pole Monitoring with Computer Vision</h1>
 <p class="fade-in-text-2"><a href="https://github.com/jcheung4/DSC180B">GitHub Repository</a> | <a href="https://github.com/jcheung4/DSC180B">Report</a></p>
@@ -107,7 +98,7 @@ We have created a demo that navigates through a predefined street segment using 
 </p>
 
 <div class="fade-in-text-8" style="text-align:center;">
-    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width: auto; height: 100px;">
+    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width: 80%; max-width: 700px;">
     <p>Figure 4: Demo of our model that traverses down a street given its coordinates and returns a street traversal GIF and the utility pole counts</p>
 </div>
 
@@ -137,3 +128,12 @@ This project demonstrates the significant potential of integrating computer visi
 
 Thank you for taking a look at our project!
 </p>
+
+<div class="fade-in-text-8" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <div style="margin-left: 10px;">
+        <img src="images/hdsi-blue-gold.png" alt="Class Logo" style="width:60%; max-width:450px;">
+    </div>
+    <div style="margin-right: 10px;">
+        <img src="images/sdge-logo.png" alt="SDGE Logo" style="width: auto; height: 200px;">
+    </div>
+</div>
