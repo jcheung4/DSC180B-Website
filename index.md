@@ -45,10 +45,10 @@ layout: default
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
     <div style="margin-left: 10px;">
-        <img src="images/hdsi-blue-gold.png" alt="Class Logo" style="width: auto; height: 100px;">
+        <img src="images/hdsi-blue-gold.png" alt="Class Logo" style="width:60%; max-width:450px;">
     </div>
     <div style="margin-right: 10px;">
-        <img src="images/sdge-logo.png" alt="SDGE Logo" style="width: auto; height: 100px;">
+        <img src="images/sdge-logo.png" alt="SDGE Logo" style="width: auto; height: 200px;">
     </div>
 </div>
 
@@ -107,16 +107,16 @@ We have created a demo that navigates through a predefined street segment using 
 </p>
 
 <div class="fade-in-text-8" style="text-align:center;">
-    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width:60%; max-width:450px;">
+    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width: auto; height: 100px;">
     <p>Figure 4: Demo of our model that traverses down a street given its coordinates and returns a street traversal GIF and the utility pole counts</p>
 </div>
 
 <div class="fade-in-text-8" style="display: flex; justify-content: center; align-items: center;">
     <div style="flex: 1; text-align: center;">
-        <img src="images/pole1.png" alt="Descriptive Alt Text Left" style="width: 60%; max-width: 450px;">
+        <img src="images/pole1.png" alt="Descriptive Alt Text Left" style="width: 80%; max-width: 700px;">
     </div>
     <div style="flex: 1; text-align: center;">
-        <img src="images/pole2.png" alt="Descriptive Alt Text Right" style="width: 60%; max-width: 450px;">
+        <img src="images/pole2.png" alt="Descriptive Alt Text Right" style="width: 80%; max-width: 700px;">
     </div>
 </div>
 
