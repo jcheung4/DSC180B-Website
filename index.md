@@ -98,7 +98,7 @@ We have created a demo that navigates through a predefined street segment using 
 </p>
 
 <div class="fade-in-text-8" style="text-align:center;">
-    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width: 80%; max-width: 700px;">
+    <img src="images/pole_demo.png" alt="Descriptive Alt Text" style="width: 100%; max-width: 900px;">
     <p>Figure 4: Demo of our model that traverses down a street given its coordinates and returns a street traversal GIF and the utility pole counts</p>
 </div>
 
