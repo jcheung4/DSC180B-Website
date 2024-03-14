@@ -52,6 +52,10 @@ layout: default
 <p class="fade-in-text-2">Welcome to our project website! Here we share our journey and findings from our HDSI capstone project with help of SDGE, which focuses on improving utility pole monitoring through the innovative use of computer vision and Google Street View images. </p>
 <p class="fade-in-text-2">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
 
+<div class="fade-in-text-2" style="text-align:center;">
+    <img src="images/traversal_demo.gif" alt="Descriptive Alt Text for the GIF" style="width:80%; max-width:800px;">
+</div>
+
 <h2 class="fade-in-text-3">Our Mission</h2>
 <p class="fade-in-text-3">
 In a world where climate change is escalating the risks of wildfires, our project provides a step for monitoring utility poles more effectively, ensuring community safety and enhancing the reliability of utility infrastructure.
