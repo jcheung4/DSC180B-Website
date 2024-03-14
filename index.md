@@ -53,7 +53,7 @@ layout: default
 <p class="fade-in-text-2">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
 
 <div class="fade-in-text-2" style="text-align:center;">
-    <img src="images/traversal_demo.gif" alt="Descriptive Alt Text for the GIF" style="width:80%; max-width:800px;">
+    <img src="images/traversal_demo_loop.gif" alt="Descriptive Alt Text for the GIF" style="width:50%; max-width:500px;">
 </div>
 
 <h2 class="fade-in-text-3">Our Mission</h2>
