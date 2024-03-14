@@ -49,53 +49,53 @@ layout: default
 
 <h1 class="fade-in-text-1">Enhancing Utility Pole Monitoring with Computer Vision</h1>
 <p class="fade-in-text-2"><a href="https://github.com/jcheung4/DSC180B">GitHub Repository</a> | <a href="https://github.com/jcheung4/DSC180B">Report</a></p>
-<p class="fade-in-text-2">Welcome to our project website! Here we share our journey and findings from our HDSI capstone project with help of SDGE, which focuses on improving utility pole monitoring through the innovative use of computer vision and Google Street View images. </p>
-<p class="fade-in-text-2">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
+<p class="fade-in-text-3">Welcome to our project website! Here we share our journey and findings from our HDSI capstone project with help of SDGE, which focuses on improving utility pole monitoring through the innovative use of computer vision and Google Street View images. </p>
+<p class="fade-in-text-4">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
 
-<div class="fade-in-text-2" style="text-align:center;">
+<div class="fade-in-text-5" style="text-align:center;">
     <img src="images/traversal_demo_loop.gif" alt="Descriptive Alt Text for the GIF" style="width:50%; max-width:500px;">
 </div>
 
-<h2 class="fade-in-text-3">Our Mission</h2>
-<p class="fade-in-text-3">
+<h2 class="fade-in-text-6">Our Mission</h2>
+<p class="fade-in-text-6">
 In a world where climate change is escalating the risks of wildfires, our project provides a step for monitoring utility poles more effectively, ensuring community safety and enhancing the reliability of utility infrastructure.
 </p>
 
-<p class="fade-in-text-3">
+<p class="fade-in-text-6">
 Our initiative employs computer vision with Google Street View to automate the monitoring of utility poles, boosting the accuracy and efficiency of current database maintenance practices. Utility pole monitoring has traditionally been a tedious and error-prone process. By harnessing a rich dataset from Google Street View, we've developed an automated system to detect and identify the material quality of utility poles across different locations, streamlining the monitoring process and offering scalable benefits.
 </p>
 
-<h2 class="fade-in-text-4">Our Methods</h2>
-<p class="fade-in-text-4">
+<h2 class="fade-in-text-7">Our Methods</h2>
+<p class="fade-in-text-7">
 Our methodology encompasses a series of steps designed to automate utility pole detection and classification, ensuring a replicable approach.
 </p>
 
-<h3 class="fade-in-text-5">Data Collection</h3>
-<p class="fade-in-text-5">
+<h3 class="fade-in-text-8">Data Collection</h3>
+<p class="fade-in-text-8">
 We've created a python script to gather over 800 images from Google Street View, capturing various utility poles from multiple perspectives and field of views.
 </p>
 
-<div class="fade-in-text-5" style="text-align:center;">
+<div class="fade-in-text-8" style="text-align:center;">
     <img src="images/street_img_collect_hori.png" alt="Descriptive Alt Text" style="width:60%; max-width:450px;">
     <p>Figure 1: Our methodology for collecting images from different angles and field of views for the same pole. The yellow circle indicates the utility pole and the blue circles indicate the different angles the picture is taken at </p>
 </div>
 
-<h3 class="fade-in-text-6">Image Processing and Pole Detection</h3>
-<p class="fade-in-text-6">
+<h3 class="fade-in-text-8">Image Processing and Pole Detection</h3>
+<p class="fade-in-text-8">
 Employing a DETR (DEtection TRansformer) object detection model, we've fine-tuned our system to identify and classify utility poles from the collected images, demonstrating the practical application of our solution. The model was adapted to recognize the material quality of the utility poles.
 </p>
 
-<div class="fade-in-text-6" style="text-align:center;">
+<div class="fade-in-text-8" style="text-align:center;">
     <img src="images/dect_samp.png" alt="Descriptive Alt Text" style="width:60%; max-width:450px;">
     <p>Figure 2: Detecting wooden and metal poles from a Google Street View image</p>
 </div>
 
-<h3 class="fade-in-text-7">Data Validation</h3>
-<p class="fade-in-text-7">
+<h3 class="fade-in-text-8">Data Validation</h3>
+<p class="fade-in-text-8">
 Our validation process compares our detected poles against a simulated database, ideally a database from a utility company, ensuring the accuracy and reliability of our system. In our case, we used a sample database from SDGE to compare our counts from our database.
 </p>
 
-<div class="fade-in-text-7" style="text-align:center;">
+<div class="fade-in-text-8" style="text-align:center;">
     <img src="images/results_database.png" alt="Descriptive Alt Text" style="width:60%; max-width:450px;">
     <p>Figure 3: Comparing and validating detected utility poles of our database against database records from SDGE</p>
 </div>
