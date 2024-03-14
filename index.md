@@ -48,7 +48,7 @@ layout: default
 </style>
 
 <h1 class="fade-in-text-1">Enhancing Utility Pole Monitoring with Computer Vision</h1>
-<p class="fade-in-text-2"><a href="https://github.com/jcheung4/DSC180B">GitHub Repository</a> | <a href="https://github.com/jcheung4/DSC180B">Report</a></p>
+<p class="fade-in-text-2"><a href="https://github.com/jcheung4/DSC180B">GitHub Repository</a> | <a href="documents/DSC_180B_Capstone_Report.pdf" target="_blank">Report</a></p>
 <p class="fade-in-text-3">Welcome to our project website! Here we share our journey and findings from our HDSI capstone project with help of SDGE, which focuses on improving utility pole monitoring through the innovative use of computer vision and Google Street View images. </p>
 <p class="fade-in-text-4">by Derek Wen, Sunwoo Kim, Jonathan Cheung, and Kevin Bui</p>
 
