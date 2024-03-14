@@ -11,7 +11,7 @@ layout: default
 .fade-in-text-1, .fade-in-text-2, .fade-in-text-3, .fade-in-text-4, 
 .fade-in-text-5, .fade-in-text-6, .fade-in-text-7, .fade-in-text-8 {
     opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .fade-in-text-1 {
@@ -133,7 +133,9 @@ Furthermore, our project opens the door to numerous possibilities for future enh
 <h2 class="fade-in-text-8">Conclusion</h2>
 <p class="fade-in-text-8">
 This project demonstrates the significant potential of integrating computer vision with accessible image sources like Google Street View to enhance utility pole monitoring. Our findings offer a glimpse into a future where such technologies can play a pivotal role in improving infrastructure management, thereby contributing to wildfire prevention and community safety. As we look to the future, we are excited about the possibilities of expanding this technology to tackle broader challenges and achieve greater impact in the realm of infrastructure monitoring and beyond.
+</p>
 
+<p class="fade-in-text-8">
 Thank you for taking a look at our project!
 </p>
 
